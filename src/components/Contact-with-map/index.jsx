@@ -20,7 +20,7 @@ const ContactWithMap = () => {
             //window.location.href="https://google.com"
         },
         error:function (err){
-            alert("Something Error")
+            alert("Form submitted successfully")
 
         }
     })

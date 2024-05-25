@@ -24,7 +24,7 @@ const AboutUs4 = () => {
                     <h6>Satisfied Clients</h6>
                   </div>
                 </div>
-                <div className="col-sm-6">
+                {/* <div className="col-sm-6">
                   <div className="item">
                     <h3>
                       <span className="nbr custom-font">656</span>
@@ -32,14 +32,14 @@ const AboutUs4 = () => {
                     </h3>
                     <h6>Monthly Revenue</h6>
                   </div>
-                </div>
+                </div> */}
                 <div className="col-sm-6">
-                  <div className="item">
+                  {/* <div className="item">
                     <h3>
                       <span className="nbr custom-font">17</span>
                     </h3>
                     <h6>Awards Won</h6>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

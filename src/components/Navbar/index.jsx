@@ -37,6 +37,8 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
               <img src={appData.lightLogo} alt="logo" ref={logoRef} style={{marginLeft:'60px'}}/>
             </a>
           </Link>
+                    <h6 style={{marginLeft:"80px"}}>The Architecture Corporation</h6>
+
 
           <button
             className="navbar-toggler"

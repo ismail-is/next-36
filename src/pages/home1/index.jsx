@@ -27,10 +27,12 @@ const Home1 = () => {
       {/* <Portfolio1 /> */}
       <SkillsCircle />
       <Brands/>
-      <Testimonials />
+      <br/><br/>
+      <br/><br/>
+      {/* <Testimonials /> */}
       {/* <Team1 /> */}
     
-      <Contact />
+      {/* <Contact /> */}
     </LightLayout>
   );
 };
