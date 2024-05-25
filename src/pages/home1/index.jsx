@@ -23,7 +23,7 @@ const Home1 = () => {
       {/* <AboutUs1 /> */}
       <AboutUs2/>
       <Blogs1 />
-      <Services1 />
+      {/* <Services1 /> */}
       {/* <Portfolio1 /> */}
       <SkillsCircle />
       <Brands/>

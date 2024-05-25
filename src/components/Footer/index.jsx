@@ -16,22 +16,22 @@ const Footer = ({ classText }) => {
                 <li>
                   <span className="icon pe-7s-map-marker"></span>
                   <div className="cont">
-                    <h6>Officeal Address</h6>
-                    <p>Shop no. 305, Milestone 25 building, Balmatta,Mangalore - 575002</p>
+                    <h6> Address</h6>
+                    <p>#305, 3rd Floor, Milestone25, Balmata Mangalore - 575002</p>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-mail"></span>
                   <div className="cont">
                     <h6>Email Us</h6>
-                    <p><a href="mailto:design@thearchitecturecorporation.com">design@thearchitecturecorporation.com</a></p>
+                    <p><a href="mailto:thearchitecturecorporation.com">thearchitecturecorporation.com</a></p>
+                    <p style={{fontSize:'14px'}}><a href="mailto:design@thearchitecturecorporation.com">design@thearchitecturecorporation.com</a></p>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-call"></span>
                   <div className="cont">
                     <h6>Call Us</h6>
-                    <p><a href="tel:+91 90364 28899">  +91 90364 28899</a></p>
                     <p><a href="tel:+91 90362 68899">   +91 90362 68899</a></p>
                   </div>
                 </li>
@@ -43,7 +43,7 @@ const Footer = ({ classText }) => {
               <div className="title">
                 <h5>Our Pages</h5>
               </div>
-              <ul style={{textAlign:"center",textJustify:'inter-word',}}>
+              <ul style={{textAlign:"justify",textJustify:'inter-word',marginLeft:'30px'}}>
                 <li>
                   <div className="img">
                     <Link href="/home1">
@@ -93,23 +93,21 @@ const Footer = ({ classText }) => {
             <div className="item">
               <div className="logo">
                 <img src="/assets/img/Architectures/alogo.png" alt="" />
+                <p style={{marginTop:'10px'}}>The Architecture Corporation</p>
               </div>
               <div className="social">
+              <Link href="https://www.instagram.com/thearchitecturecorporation/">
+                  <a>
+                    <i className="fab fa-instagram"></i>
+                  </a>
+                </Link>
                 <Link href="#">
                   <a>
                     <i className="fab fa-facebook-f"></i>
                   </a>
                 </Link>
-                <Link href="#">
-                  <a>
-                    <i className="fab fa-twitter"></i>
-                  </a>
-                </Link>
-                <Link href="https://www.instagram.com/thearchitecturecorporation/">
-                  <a>
-                    <i className="fab fa-instagram"></i>
-                  </a>
-                </Link>
+              
+               
                 <Link href="#">
                   <a>
                     <i className="fab fa-linkedin"></i>

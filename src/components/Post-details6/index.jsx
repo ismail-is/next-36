@@ -39,16 +39,17 @@ const PostDetails6 = () => {
                       <div className="cont">
                         <div className="spacial">
                           <p>
-                          In planning the Pasal development, we&apos;ve structured the project into two phases to meet immediate needs while allowing flexibility for future growth. Phase 1 focuses on developing the building up to the Lung space, addressing the urgent requirement for space. Phase 2 will see the completion of the remaining building as needs arise, allowing for a more relaxed and adaptive approach.
+                          Father Mullers charitable institution, is a long-standing and proud legacy of 150 years in the field of medicine. This year it completes a significant milestone  in medical education. An idea that was sowed by our founders 25 years ago, has grown in strength and capability ever since. Our transformation from a caterpillar to a butterfly has been profound and impactful.One modest idea has grown exponentially into an authentic and trustworthy brand.
 
                           </p>
                         </div>
                       
                         <p >
-                        At the heart of our design is a centrally located service core, ensuring that hospital-related activities remain uninterrupted throughout construction. We employed a grid planning system, with each grid unit designed to accommodate 50 people. This modular approach provides the flexibility to expand and adapt the layout as the project evolves
+                        Today, as we celebrate our quarter-century anniversary in medical education, we look to the future with a desire for continued growth and innovation. A deemed future university - our perspective for the demanding future
+
                         </p>
                         <p >
-                        Additionally, we have incorporated a relaxing green space for unwinding, offering a tranquil environment within the bustling hospital setting. This thoughtful integration of functional and restorative spaces ensures a balanced and efficient design, meeting both current and future needs while promoting well-being
+                        This magnificent structure is a glimpse into a different world of education that will lead the way in and beyond for future generations.
                         </p>
                         {/* <h6>-Multi-functional Networking Hub</h6>
 

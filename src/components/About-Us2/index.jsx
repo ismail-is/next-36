@@ -51,14 +51,14 @@ const AboutUs2 = () => {
                     <img src={aboutUs2Data.image2} alt="" />
                   </div>
                 </div>
-                <div className="col-md-5">
+                {/* <div className="col-md-5">
                   <div className="years-exp">
                     <div className="exp-text">
-                      {/* <h2 className="custom-font">{aboutUs2Data.exp}</h2> */}
-                      {/* <h6>Years Of Experience</h6> */}
+                      <h2 className="custom-font">{aboutUs2Data.exp}</h2>
+                      <h6>Years Of Experience</h6>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

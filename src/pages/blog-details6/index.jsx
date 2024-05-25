@@ -13,8 +13,7 @@ const BlogDetails = () => {
   return (
     <MainLayout>
       <PageHeader6
-        title="Phasal
-        Development"
+        title="Fathers Mullers University"
         fullPath={[
           // { id: 1, name: "home", url: "/" },
           // { id: 2, name: "blogs", url: "/blogs" },

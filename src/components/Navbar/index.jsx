@@ -3,8 +3,13 @@ import React from "react";
 import Link from "next/link";
 import appData from "../../data/app.json";
 import getSiblings from '../../common/getSiblings'
+// import logoname from '../../styles/scss/shortcodes/logoname.css'
+// import '../../styles/namelogo.css'
 
 const Navbar = ({ navbarRef, logoRef, logoClass }) => {
+
+ 
+
   const handleDropdown = (e) => {
     getSiblings(e.target.parentElement)
       .filter((item) => item.classList.contains("show"))
@@ -37,7 +42,15 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
               <img src={appData.lightLogo} alt="logo" ref={logoRef} style={{marginLeft:'60px'}}/>
             </a>
           </Link>
-                    <h6 style={{marginLeft:"80px"}}>The Architecture Corporation</h6>
+          <ul className="navbar-nav ml-auto">
+          <li className="nav-item" id='logoname'>
+                <Link href="/">
+                  <a className="nav-link">The Architecture Corporation</a>
+                </Link>
+              </li>
+            </ul>
+         
+          {/* <h6 style={{marginLeft:"80px"}}>The Architecture Corporation</h6> */}
 
 
           <button
@@ -91,6 +104,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   </Link>
                 </div>
               </li> */}
+              
               <li className="nav-item">
                 <Link href="/home1">
                   <a className="nav-link">Home</a>
@@ -163,6 +177,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                 </Link>
               </li>
             </ul>
+           
           </div>
         </div>
       </nav>

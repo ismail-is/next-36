@@ -4,20 +4,20 @@
     "image": "/assets/img/01.jpg",
     "icon": "icon flaticon-home-1",
     "title": "Architecture",
-    "content": "Cras mollis turpis a ipsum ultes, nec cond imentum ipsum consequat."
+    "content": "Architecture is the art and science of designing buildings and spaces, balancing form and function. Architects create functional, aesthetic, and sustainable environments, shaping how people live, work, and interact."
   },
   {
     "id": 2,
     "image": "/assets/img/02.jpg",
     "icon": "icon flaticon-living-room",
     "title": "Interior Design",
-    "content": "Cras mollis turpis a ipsum ultes, nec cond imentum ipsum consequat."
+    "content": "Interior design enhances spaces to be healthier and more aesthetic. It involves selecting furniture, colors, and materials to create functional, beautiful environments tailored to clients' needs."
   },
   {
     "id": 3,
     "image": "/assets/img/03.jpg",
     "icon": "icon flaticon-interior-design",
-    "title": "3D Modeling",
-    "content": "Cras mollis turpis a ipsum ultes, nec cond imentum ipsum consequat."
+    "title": "Hospitality Design",
+    "content": "Hospitality design creates welcoming, functional spaces in hotels and restaurants, enhancing guest experiences through aesthetics and practicality for comfort and memorable atmospheres."
   }
 ]
