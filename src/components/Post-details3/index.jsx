@@ -28,7 +28,7 @@ const PostDetails3 = () => {
                 {/* </div> */}
                 <div className="img main-img">
                   <img
-                    src="/assets/img/Architectures/projects/rohan.jpg"
+                    src="/assets/img/Architectures/banner/hills1.jpg"
                     alt=""
                     className="thumparallax"
                   />
@@ -93,13 +93,13 @@ that ‘breathes’.
                         </div> */}
                         <br/>
                         <br/>
-                         <div className="container" >
+                         {/* <div className="container" >
         <div className="main-header text-center ">
           <h3 style={{textTransform:'uppercase'}}>Projects</h3>
           <div className="tex-bg">Work</div>
         </div>
-      </div>
-                        <div className="row">
+      </div> */}
+                        {/* <div className="row">
                           <div className="col-md-6">
                             <div className="mb-10">
                               <img src="/assets/img/Architectures/s1.jpg" alt="" />
@@ -110,7 +110,7 @@ that ‘breathes’.
                               <img src="/assets/img/Architectures/s2.jpg" alt="" />
                             </div>
                           </div>
-                        </div>
+                        </div> */}
                         {/* <p>
                           We all intend to plan ahead, but too often let the
                           day-to-day minutia get in the way of making a calendar

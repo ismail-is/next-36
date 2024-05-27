@@ -28,7 +28,7 @@ const PostDetails1 = () => {
                 {/* </div> */}
                 <div className="img main-img">
                   <img
-                    src="/assets/img/blog/single.jpg"
+                    src="/assets/img/Architectures/banner/Rohan 2.jpg"
                     alt=""
                     className="thumparallax"
                   />
@@ -93,22 +93,22 @@ that ‘breathes’.
                         </div> */}
                         <br/>
                         <br/>
-                         <div className="container" >
+                         {/* <div className="container" >
         <div className="main-header text-center ">
           <h3 style={{textTransform:'uppercase'}}>Projects</h3>
           <div className="tex-bg">Work</div>
         </div>
-      </div>
+      </div> */}
                         <div className="row">
                           <div className="col-md-6">
-                            <div className="mb-10">
+                            {/* <div className="mb-10">
                               <img src="/assets/img/Architectures/s1.jpg" alt="" />
-                            </div>
+                            </div> */}
                           </div>
                           <div className="col-md-6">
-                            <div className="mb-10">
+                            {/* <div className="mb-10">
                               <img src="/assets/img/Architectures/s2.jpg" alt="" />
-                            </div>
+                            </div> */}
                           </div>
                         </div>
                         {/* <p>

@@ -44,7 +44,7 @@ const PostDetails7 = () => {
                           
                         </div>
                         <p >
-                        Residents also have access to a clubhouse featuring amenities such as a pool, indoor game area, and gym. These facilities provide opportunities for fun, stress relief, and quality time with loved ones.
+                        Additionally, communal areas were designed to promote socialization, fostering a sense of community among students. The layout also includes quiet areas for focused study and reflection, supporting individualized learning.change it with this in Shakthi
                         </p>
                         <p >
                         By aligning our design with our pedagogical principles, we&apos;ve created an environment that supports academic excellence and fosters student engagement. This setting encourages students to meet new people and gain valuable experiences, ultimately leading to personal growth.

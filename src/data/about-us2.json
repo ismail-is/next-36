@@ -1,12 +1,12 @@
 {
   "title": {
-    "first": "Best Designers",
-    "second": "Architectures for You."
+    "first": "Best Tailored ",
+    "second": "Architecture for You"
   },
   "image1": "/assets/img/Architectures/about1.jpg",
   "image2": "/assets/img/Architectures/about2.jpg",
-  "content": "We are a team dedicated to delivering innovative and sustainable solutions, with a focus on creativity and client satisfaction. Our comprehensive range of services spans from conceptualization to project completion across various sectors, ensuring personalized attention and meticulous craftsmanship for each project.",
-
+  "content": "We are a dedicated team committed to delivering innovative and sustainable solutions, with a focus on creativity and client satisfaction.",
+  "content1":" Our comprehensive range of services spans from conceptualization to project completion across industries such as residential, commercial, and industrial. We pride ourselves on offering personalized attention, tailoring each project to meet our clients unique needs and goals.",
   "exp": 21,
   "textList": [
     {

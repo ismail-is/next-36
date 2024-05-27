@@ -3,6 +3,7 @@ import MainLayout from "../../layouts/main";
 import PageHeader from "../../components/Page-header";
 import PostDetails from "../../components/Post-details";
 import PostDetails1 from "../../components/Post-details1";
+import PageHeader0 from "../../components/Page-header0";
 
 const BlogDetails = () => {
   React.useEffect(() => {
@@ -10,7 +11,7 @@ const BlogDetails = () => {
   }, [])
   return (
     <MainLayout>
-      <PageHeader
+      <PageHeader0
         title="Rohan / Mall"
         fullPath={[
           // { id: 1, name: "home", url: "/" },

@@ -39,7 +39,7 @@ const PostDetails = () => {
                       <div className="cont">
                         <div className="spacial">
                           <p>
-                          Nestled in the heart of the city, our suites are designed with elegant interiors and modern amenities, seamlessly blending style with functionality. Every detail, from the well-appointed rooms to the gourmet dining areas, reflects a commitment to excellence. The result is a space where guests, whether visiting for business or leisure, can enjoy personalized service and a host of top-tier facilities, all within a thoughtfully designed environment.
+                          Nestled in the heart of the city, our suites are designed with elegant interiors and modern amenities, seamlessly blending style with functionality. Every detail, from the well-appointed rooms to the gourmet dining areas, reflects a commitment to excellence. The result is a space where guests, whether visiting for business or leisure, can enjoy personalized service and a host of top-tier facilities, all within a thoughtfully designed environment.Some of the key highlights in Rohan Suite
                           </p>
                         </div>
                       

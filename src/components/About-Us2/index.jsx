@@ -18,6 +18,7 @@ const AboutUs2 = () => {
                 {aboutUs2Data.title.first} <br /> {aboutUs2Data.title.second}
               </h2>
               <p>{aboutUs2Data.content}</p>
+              <p>{aboutUs2Data.content1}</p>
               <ul>
                 {aboutUs2Data.textList.map((item) => (
                   <li key={item.id}>{item.name}</li>
