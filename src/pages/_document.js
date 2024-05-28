@@ -22,6 +22,7 @@ class MyDocument extends Document {
             name="description"
             content="Archo - Onepage Multi-Purpose React nextjs Template"
           />
+          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"></meta>
           <meta name="author" content="" />
 
           <link rel="shortcut icon" href="/assets/img/Architectures/icon.png" />

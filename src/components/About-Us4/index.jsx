@@ -18,9 +18,9 @@ const AboutUs4 = () => {
                 </div>
                 <div className="col-sm-6">
                   <div className="item mb-50">
-                    <h3 style={{color:'#C5A47E'}}>
+                    <h1 style={{color:'#C5A47E'}}>
                       <span className="nbr custom-font">567</span>
-                    </h3>
+                    </h1>
                     <h6>Satisfied Clients</h6>
                   </div>
                 </div>

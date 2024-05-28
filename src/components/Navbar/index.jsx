@@ -37,14 +37,14 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
     <>
       <nav className="navbar change navbar-expand-lg" ref={navbarRef}>
         <div className="container">
-          <Link href="/">
+          <Link href="#">
             <a className={`logo ${logoClass && logoClass}`}>
               <img src={appData.lightLogo} alt="logo" ref={logoRef} style={{marginLeft:'60px'}}/>
             </a>
           </Link>
           <ul className="navbar-nav ml-auto">
           <li className="nav-item" id='logoname'>
-                <Link href="/">
+                <Link href="#">
                   <a className="nav-link">The Architecture Corporation</a>
                 </Link>
               </li>
@@ -173,7 +173,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
               </li> */}
               <li className="nav-item">
                 <Link href="/contact">
-                  <a className="nav-link">Contact</a>
+                  <a className="nav-link" aria-label="Contact">Contact</a>
                 </Link>
               </li>
             </ul>
