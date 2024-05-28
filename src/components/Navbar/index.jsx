@@ -106,7 +106,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
               </li> */}
               
               <li className="nav-item">
-                <Link href="/home1">
+                <Link href="/">
                   <a className="nav-link">Home</a>
                 </Link>
               </li>
