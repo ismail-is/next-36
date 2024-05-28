@@ -30,7 +30,7 @@ const ContactWithMap = () => {
     <div className="container-fluid">
       <div className="row">
         <div className="col-lg-6 map-box">
-          <iframe src={appData.mapIframe}></iframe>
+          <iframe src={appData.mapIframe}  title="myFrame"></iframe>
         </div>
         <div className="col-lg-6 form">
           <form  id="submit-form"  action="">

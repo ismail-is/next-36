@@ -10,15 +10,15 @@ const AboutUs4 = () => {
               <div className="row">
                 <div className="col-sm-6">
                   <div className="item mb-50">
-                    <h3>
+                    <h1 style={{color:'#C5A47E'}}>
                       <span className="nbr custom-font">352</span>
-                    </h3>
+                    </h1>
                     <h6>Projects Completed</h6>
                   </div>
                 </div>
                 <div className="col-sm-6">
                   <div className="item mb-50">
-                    <h3>
+                    <h3 style={{color:'#C5A47E'}}>
                       <span className="nbr custom-font">567</span>
                     </h3>
                     <h6>Satisfied Clients</h6>
