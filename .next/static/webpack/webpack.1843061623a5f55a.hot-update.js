@@ -7,16 +7,12 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
-self["webpackHotUpdate_N_E"]("pages/index",{
-
-/***/ "./src/data/skills-circle.json":
-/*!*************************************!*\
-  !*** ./src/data/skills-circle.json ***!
-  \*************************************/
-/***/ (function(module) {
-
-module.exports = JSON.parse('[{"id":1,"name":"ARCHITECTURE","val":97},{"id":2,"name":"INTERIOR DESIGN","val":95},{"id":3,"name":"innovation ","val":98},{"id":4,"name":"CONTEMPORARY IDEAS","val":94}]');
-
-/***/ })
-
-});
+self["webpackHotUpdate_N_E"]("webpack",{},
+/******/ function(__webpack_require__) { // webpackRuntimeModules
+/******/ /* webpack/runtime/getFullHash */
+/******/ !function() {
+/******/ 	__webpack_require__.h = function() { return "e38044c63dbafd3c"; }
+/******/ }();
+/******/ 
+/******/ }
+);
