@@ -13,7 +13,7 @@ const AboutUs4 = () => {
                     <h1 style={{color:'#C5A47E'}}>
                       <span className="nbr custom-font">352</span>
                     </h1>
-                    <h6>Projects Completed</h6>
+                   <span><h6>Projects Completed</h6></span> 
                   </div>
                 </div>
                 <div className="col-sm-6">
@@ -21,7 +21,7 @@ const AboutUs4 = () => {
                     <h1 style={{color:'#C5A47E'}}>
                       <span className="nbr custom-font">567</span>
                     </h1>
-                    <h6>Satisfied Clients</h6>
+                  <span><h6>Satisfied Clients</h6></span>  
                   </div>
                 </div>
                 {/* <div className="col-sm-6">

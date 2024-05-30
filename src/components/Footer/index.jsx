@@ -47,9 +47,9 @@ const Footer = ({ classText }) => {
                 <li>
                   <div className="img">
                     <Link href="/home1">
-                      <a>
+                      
                        Home
-                      </a>
+                     
                     </Link>
                   </div>
 
@@ -58,9 +58,9 @@ const Footer = ({ classText }) => {
                 <li>
                   <div className="img">
                     <Link href="/about">
-                      <a>
+                     
                        About
-                      </a>
+                     
                     </Link>
                   </div>
                 
@@ -68,9 +68,9 @@ const Footer = ({ classText }) => {
                 <li>
                   <div className="img">
                     <Link href="/ourworks">
-                      <a>
+                     
                        Our Works
-                      </a>
+                      
                     </Link>
                   </div>
                 
@@ -78,9 +78,9 @@ const Footer = ({ classText }) => {
                 <li>
                   <div className="img">
                     <Link href="/contact">
-                      <a>
+                   
                        Contact
-                      </a>
+                    
                     </Link>
                   </div>
                 
@@ -97,18 +97,18 @@ const Footer = ({ classText }) => {
               </div>
               <div className="social">
               {/* <Link > */}
-                  <a href="https://www.instagram.com/thearchitecturecorporation/" aria-label='fa-instagram'>
+                  <a href="https://www.instagram.com/thearchitecturecorporation/" aria-label='instagram'>
                     <i className="fab fa-instagram"></i>
                   </a>
                 {/* </Link> */}
                 <Link href="#">
-                  <a >
+                  <a href="#" aria-label='facebook'>
                     <i className="fab fa-facebook-f"></i>
                   </a>
                 </Link>
               
                
-                <Link href="#">
+                <Link href="#" aria-label='linkedin'>
                   <a>
                     <i className="fab fa-linkedin"></i>
                   </a>

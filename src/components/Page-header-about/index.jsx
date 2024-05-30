@@ -8,7 +8,7 @@ const PageHeaderabout = ({ title, fullPath, image }) => {
     <header
       className="pages-header bg-img valign parallaxie"
       style={{
-        backgroundImage: `url(${!image ? "/assets/img/Architectures/aboutbanner.jpg" : image})`,
+        backgroundImage: `url(${!image ? "/assets/img/Architectures/new/aboutheader.jpg" : image})`,
       }}
       data-overlay-dark="5"
     >

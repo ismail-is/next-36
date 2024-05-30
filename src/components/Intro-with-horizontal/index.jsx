@@ -81,7 +81,7 @@ const IntroWithHorizontal = () => {
                     <div className="row">
                       <div className="col-lg-8 col-md-10">
                         <div className="caption hmone mt-100">
-                          <h5 className="thin">{slide.title.first}</h5>
+                          <h3 className="thin">{slide.title.first}</h3>
                           <Split>
                             <h1
                               data-splitting

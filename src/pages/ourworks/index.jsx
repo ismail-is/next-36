@@ -41,7 +41,7 @@ const ourworks = () => {
       {/* <Testimonials /> */}
       {/* <Team1 /> */}
 {/* <WorkFourColumn/> */}
-      <Contact />
+      {/* <Contact /> */}
     </LightLayout>
   );
 };

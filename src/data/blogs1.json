@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/Architectures/ourservice/Rohan Suite.jpg",
+    "image": "/assets/img/Architectures/new/Suite.jpg",
     "title": "Hospitality /Rohan Suite",
     "sub":"Luxury Living/ Prime Location /Convenience",
     "by": "ALEX SMITH",
@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "image": "/assets/img/Architectures/ourservice/Mall.jpg",
+    "image": "/assets/img/Architectures/new/mohal.jpg",
     "title": "Rohan / Mall",
     "sub":"Mall/ Star hotel /corporate office",
     "by": "ALEX SMITH",
@@ -19,7 +19,7 @@
   },
   {
     "id": 3,
-    "image": "/assets/img/Architectures/ourservice/Ekaa.jpg",
+    "image": "/assets/img/Architectures/new/ekka.jpg",
     "title": "Ekaa",
     "sub":"Residential apartment / Bangalore",
     "by": "ALEX SMITH",
@@ -29,7 +29,7 @@
   
   {
     "id": 4,
-    "image": "/assets/img/Architectures/ourservice/Hills.jpg",
+    "image": "/assets/img/Architectures/new/estate.jpg",
     "title": "Rohan Hills",
     "sub":"Rohan Hills & Estate",
     "by": "ALEX SMITH",
@@ -38,7 +38,7 @@
   },
   {
     "id": 5,
-    "image": "/assets/img/Architectures/ourservice/Vermont.jpg",
+    "image": "/assets/img/Architectures/new/phase.jpg",
     "title": "Vermont Valley",
     "sub":"Residential Houses",
     "by": "ALEX SMITH",
@@ -48,7 +48,7 @@
  
   {
     "id": 7,
-    "image": "/assets/img/Architectures/ourservice/Phasal.jpg",
+    "image": "/assets/img/Architectures/new/fathermulla.jpg",
     "title": "Fathers Mullers University",
     "sub":"Institutional Building –Father Muller’s Administration Block",
     "by": "ALEX SMITH",
@@ -57,7 +57,7 @@
   },
   {
     "id": 8,
-    "image": "/assets/img/Architectures/ourservice/Shakthi.jpg",
+    "image": "/assets/img/Architectures/new/shathischool.jpg",
     "title": "Shakthi Residential School",
     "sub":"Shakthi Residential School & campus",
     "by": "ALEX SMITH",
@@ -66,7 +66,7 @@
   },
   {
     "id": 9,
-    "image": "/assets/img/Architectures/ourservice/Sheni.jpg",
+    "image": "/assets/img/Architectures/new/kerala.jpg",
     "title": " Kerala Sheni Farmhouse",
     "sub":"Open Spaces/Expansive Views",
     "by": "ALEX SMITH",

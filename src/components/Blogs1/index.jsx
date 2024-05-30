@@ -10,9 +10,9 @@ const Blogs1 = () => {
         <div className="section-head text-center">
           <div className="row justify-content-center">
             <div className="col-lg-6 col-md-8 col-sm-10">
-              <h6 className="wow fadeInDown" data-wow-delay=".3s" style={{color:"#575757"}}>
+              <h5 className="wow fadeInDown" data-wow-delay=".3s" style={{color:"#575757"}}>
                 Latest Works
-              </h6>
+              </h5>
               <h4 className="playfont wow flipInX" data-wow-delay=".5s">
                 Our Works
               </h4>
