@@ -38,7 +38,7 @@ const AboutUs2 = () => {
                   <div
                     className="pattern bg-img bg-repeat"
                     style={{
-                      backgroundImage: `url(/assets/img/line-pattern.png)`,
+                      // backgroundImage: `url(/assets/img/line-pattern.png)`,
                     }}
                   ></div>
                 </div>

@@ -92,7 +92,7 @@ const Footer = ({ classText }) => {
           <div className="col-lg-4">
             <div className="item">
               <div className="logo">
-                <img src="/assets/img/Architectures/alogo.png" alt="" />
+                <img src="/assets/img/Architectures/new/whitelogo.png" alt="" />
                 <p style={{marginTop:'10px',color:'#A7B4B4'}}>The Architecture Corporation</p>
               </div>
               <div className="social">

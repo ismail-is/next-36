@@ -1,0 +1,89 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("pages/index",{
+
+/***/ "./src/components/Skills-circle/index.jsx":
+/*!************************************************!*\
+  !*** ./src/components/Skills-circle/index.jsx ***!
+  \************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+/* module decorator */ module = __webpack_require__.nmd(module);
+
+
+;
+    var _a, _b;
+    // Legacy CSS implementations will `eval` browser code in a Node.js context
+    // to extract CSS. For backwards compatibility, we need to check we're in a
+    // browser context before continuing.
+    if (typeof self !== 'undefined' &&
+        // AMP / No-JS mode does not inject these helpers:
+        '$RefreshHelpers$' in self) {
+        var currentExports = module.__proto__.exports;
+        var prevExports = (_b = (_a = module.hot.data) === null || _a === void 0 ? void 0 : _a.prevExports) !== null && _b !== void 0 ? _b : null;
+        // This cannot happen in MainTemplate because the exports mismatch between
+        // templating and execution.
+        self.$RefreshHelpers$.registerExportsForReactRefresh(currentExports, module.id);
+        // A module can be accepted automatically based on its exports, e.g. when
+        // it is a Refresh Boundary.
+        if (self.$RefreshHelpers$.isReactRefreshBoundary(currentExports)) {
+            // Save the previous exports on update so we can compare the boundary
+            // signatures.
+            module.hot.dispose(function (data) {
+                data.prevExports = currentExports;
+            });
+            // Unconditionally accept an update to this module, we'll check if it's
+            // still a Refresh Boundary later.
+            module.hot.accept();
+            // This field is set when the previous version of this module was a
+            // Refresh Boundary, letting us know we need to check for invalidation or
+            // enqueue an update.
+            if (prevExports !== null) {
+                // A boundary can become ineligible if its exports are incompatible
+                // with the previous exports.
+                //
+                // For example, if you add/remove/change exports, we'll want to
+                // re-execute the importing modules, and force those components to
+                // re-render. Similarly, if you convert a class component to a
+                // function, we want to invalidate the boundary.
+                if (self.$RefreshHelpers$.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)) {
+                    module.hot.invalidate();
+                }
+                else {
+                    self.$RefreshHelpers$.scheduleUpdate();
+                }
+            }
+        }
+        else {
+            // Since we just executed the code for the module, it's possible that the
+            // new exports made it ineligible for being a boundary.
+            // We only care about the case when we were _previously_ a boundary,
+            // because we already accepted this update (accidental side effect).
+            var isNoLongerABoundary = prevExports !== null;
+            if (isNoLongerABoundary) {
+                module.hot.invalidate();
+            }
+        }
+    }
+
+
+/***/ }),
+
+/***/ "./src/pages/home1/index.jsx":
+/*!***********************************!*\
+  !*** ./src/pages/home1/index.jsx ***!
+  \***********************************/
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _components_About_Us1__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/About-Us1 */ \"./src/components/About-Us1/index.jsx\");\n/* harmony import */ var _components_Services1__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/Services1 */ \"./src/components/Services1/index.jsx\");\n/* harmony import */ var _components_Intro_with_horizontal__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/Intro-with-horizontal */ \"./src/components/Intro-with-horizontal/index.jsx\");\n/* harmony import */ var _layouts_light__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../layouts/light */ \"./src/layouts/light.jsx\");\n/* harmony import */ var _components_Portfolio1__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/Portfolio1 */ \"./src/components/Portfolio1/index.jsx\");\n/* harmony import */ var _components_Skills_circle__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/Skills-circle */ \"./src/components/Skills-circle/index.jsx\");\n/* harmony import */ var _components_Skills_circle__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_components_Skills_circle__WEBPACK_IMPORTED_MODULE_7__);\n/* harmony import */ var _components_Testimonials1__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../components/Testimonials1 */ \"./src/components/Testimonials1/index.jsx\");\n/* harmony import */ var _components_Team1__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../components/Team1 */ \"./src/components/Team1/index.jsx\");\n/* harmony import */ var _components_Blogs1__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../components/Blogs1 */ \"./src/components/Blogs1/index.jsx\");\n/* harmony import */ var _components_Contact__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../components/Contact */ \"./src/components/Contact/index.jsx\");\n/* harmony import */ var _components_Brands__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../components/Brands */ \"./src/components/Brands/index.jsx\");\n/* harmony import */ var _components_About_Us2__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../components/About-Us2 */ \"./src/components/About-Us2/index.jsx\");\n/* module decorator */ module = __webpack_require__.hmd(module);\n\n/* eslint-disable @next/next/no-img-element */ \n\n\n\n\n\n\n\n\n\n\n\n\nvar _this = undefined;\nvar _s = $RefreshSig$();\nvar Home1 = function() {\n    _s();\n    react__WEBPACK_IMPORTED_MODULE_1___default().useEffect(function() {\n        document.querySelector(\"body\").classList.add(\"homepage\");\n    }, []);\n    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_layouts_light__WEBPACK_IMPORTED_MODULE_5__[\"default\"], {\n        footerClass: \"mt-30\",\n        __source: {\n            fileName: \"D:\\\\next 36\\\\src\\\\pages\\\\home1\\\\index.jsx\",\n            lineNumber: 21,\n            columnNumber: 5\n        },\n        __self: _this,\n        children: [\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components_Intro_with_horizontal__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {\n                __source: {\n                    fileName: \"D:\\\\next 36\\\\src\\\\pages\\\\home1\\\\index.jsx\",\n                    lineNumber: 22,\n                    columnNumber: 7\n                },\n                __self: _this\n            }),\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components_About_Us2__WEBPACK_IMPORTED_MODULE_13__[\"default\"], {\n                __source: {\n                    fileName: \"D:\\\\next 36\\\\src\\\\pages\\\\home1\\\\index.jsx\",\n                    lineNumber: 24,\n                    columnNumber: 7\n                },\n                __self: _this\n            }),\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components_Blogs1__WEBPACK_IMPORTED_MODULE_10__[\"default\"], {\n                __source: {\n                    fileName: \"D:\\\\next 36\\\\src\\\\pages\\\\home1\\\\index.jsx\",\n                    lineNumber: 25,\n                    columnNumber: 7\n                },\n                __self: _this\n            }),\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)((_components_Skills_circle__WEBPACK_IMPORTED_MODULE_7___default()), {\n                __source: {\n                    fileName: \"D:\\\\next 36\\\\src\\\\pages\\\\home1\\\\index.jsx\",\n                    lineNumber: 28,\n                    columnNumber: 7\n                },\n                __self: _this\n            }),\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components_Brands__WEBPACK_IMPORTED_MODULE_12__[\"default\"], {\n                __source: {\n                    fileName: \"D:\\\\next 36\\\\src\\\\pages\\\\home1\\\\index.jsx\",\n                    lineNumber: 29,\n                    columnNumber: 7\n                },\n                __self: _this\n            }),\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"br\", {\n                __source: {\n                    fileName: \"D:\\\\next 36\\\\src\\\\pages\\\\home1\\\\index.jsx\",\n                    lineNumber: 30,\n                    columnNumber: 7\n                },\n                __self: _this\n            }),\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"br\", {\n                __source: {\n                    fileName: \"D:\\\\next 36\\\\src\\\\pages\\\\home1\\\\index.jsx\",\n                    lineNumber: 30,\n                    columnNumber: 12\n                },\n                __self: _this\n            }),\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"br\", {\n                __source: {\n                    fileName: \"D:\\\\next 36\\\\src\\\\pages\\\\home1\\\\index.jsx\",\n                    lineNumber: 31,\n                    columnNumber: 7\n                },\n                __self: _this\n            }),\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"br\", {\n                __source: {\n                    fileName: \"D:\\\\next 36\\\\src\\\\pages\\\\home1\\\\index.jsx\",\n                    lineNumber: 31,\n                    columnNumber: 12\n                },\n                __self: _this\n            })\n        ]\n    }));\n};\n_s(Home1, \"OD7bBpZva5O2jO+Puf00hKivP7c=\");\n_c = Home1;\n/* harmony default export */ __webpack_exports__[\"default\"] = (Home1);\nvar _c;\n$RefreshReg$(_c, \"Home1\");\n\n\n;\n    var _a, _b;\n    // Legacy CSS implementations will `eval` browser code in a Node.js context\n    // to extract CSS. For backwards compatibility, we need to check we're in a\n    // browser context before continuing.\n    if (typeof self !== 'undefined' &&\n        // AMP / No-JS mode does not inject these helpers:\n        '$RefreshHelpers$' in self) {\n        var currentExports = module.__proto__.exports;\n        var prevExports = (_b = (_a = module.hot.data) === null || _a === void 0 ? void 0 : _a.prevExports) !== null && _b !== void 0 ? _b : null;\n        // This cannot happen in MainTemplate because the exports mismatch between\n        // templating and execution.\n        self.$RefreshHelpers$.registerExportsForReactRefresh(currentExports, module.id);\n        // A module can be accepted automatically based on its exports, e.g. when\n        // it is a Refresh Boundary.\n        if (self.$RefreshHelpers$.isReactRefreshBoundary(currentExports)) {\n            // Save the previous exports on update so we can compare the boundary\n            // signatures.\n            module.hot.dispose(function (data) {\n                data.prevExports = currentExports;\n            });\n            // Unconditionally accept an update to this module, we'll check if it's\n            // still a Refresh Boundary later.\n            module.hot.accept();\n            // This field is set when the previous version of this module was a\n            // Refresh Boundary, letting us know we need to check for invalidation or\n            // enqueue an update.\n            if (prevExports !== null) {\n                // A boundary can become ineligible if its exports are incompatible\n                // with the previous exports.\n                //\n                // For example, if you add/remove/change exports, we'll want to\n                // re-execute the importing modules, and force those components to\n                // re-render. Similarly, if you convert a class component to a\n                // function, we want to invalidate the boundary.\n                if (self.$RefreshHelpers$.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)) {\n                    module.hot.invalidate();\n                }\n                else {\n                    self.$RefreshHelpers$.scheduleUpdate();\n                }\n            }\n        }\n        else {\n            // Since we just executed the code for the module, it's possible that the\n            // new exports made it ineligible for being a boundary.\n            // We only care about the case when we were _previously_ a boundary,\n            // because we already accepted this update (accidental side effect).\n            var isNoLongerABoundary = prevExports !== null;\n            if (isNoLongerABoundary) {\n                module.hot.invalidate();\n            }\n        }\n    }\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvcGFnZXMvaG9tZTEvaW5kZXguanN4LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUEsRUFBOEMsNkNBQ3JCO0FBQ3dCO0FBQ0M7QUFDc0I7QUFDM0I7QUFDTztBQUNLO0FBQ0E7QUFDZjtBQUNFO0FBQ0U7QUFDRjtBQUNLOzs7QUFFakQsR0FBSyxDQUFDYSxLQUFLLEdBQUcsUUFBUSxHQUFGLENBQUM7O0lBQ25CYixzREFBZSxDQUFDLFFBQVEsR0FBRixDQUFDO1FBQ3JCZSxRQUFRLENBQUNDLGFBQWEsQ0FBQyxDQUFNLE9BQUVDLFNBQVMsQ0FBQ0MsR0FBRyxDQUFDLENBQVU7SUFDekQsQ0FBQyxFQUFFLENBQUMsQ0FBQztJQUNMLE1BQU0sdUVBQ0hkLHNEQUFXO1FBQUNlLFdBQVcsRUFBRSxDQUFPOzs7Ozs7OztpRkFDOUJoQix5RUFBbUI7Ozs7Ozs7O2lGQUVuQlMsOERBQVE7Ozs7Ozs7O2lGQUNSSCwyREFBTTs7Ozs7Ozs7aUZBR05ILGtFQUFZOzs7Ozs7OztpRkFDWkssMkRBQU07Ozs7Ozs7O2lGQUNOUyxDQUFFOzs7Ozs7OztpRkFBR0EsQ0FBRTs7Ozs7Ozs7aUZBQ1BBLENBQUU7Ozs7Ozs7O2lGQUFHQSxDQUFFOzs7Ozs7Ozs7O0FBT2QsQ0FBQztHQXRCS1AsS0FBSztLQUFMQSxLQUFLO0FBd0JYLCtEQUFlQSxLQUFLLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLy4vc3JjL3BhZ2VzL2hvbWUxL2luZGV4LmpzeD84NzdlIl0sInNvdXJjZXNDb250ZW50IjpbIi8qIGVzbGludC1kaXNhYmxlIEBuZXh0L25leHQvbm8taW1nLWVsZW1lbnQgKi9cclxuaW1wb3J0IFJlYWN0IGZyb20gXCJyZWFjdFwiO1xyXG5pbXBvcnQgQWJvdXRVczEgZnJvbSBcIi4uLy4uL2NvbXBvbmVudHMvQWJvdXQtVXMxXCI7XHJcbmltcG9ydCBTZXJ2aWNlczEgZnJvbSBcIi4uLy4uL2NvbXBvbmVudHMvU2VydmljZXMxXCI7XHJcbmltcG9ydCBJbnRyb1dpdGhIb3Jpem9udGFsIGZyb20gXCIuLi8uLi9jb21wb25lbnRzL0ludHJvLXdpdGgtaG9yaXpvbnRhbFwiO1xyXG5pbXBvcnQgTGlnaHRMYXlvdXQgZnJvbSBcIi4uLy4uL2xheW91dHMvbGlnaHRcIjtcclxuaW1wb3J0IFBvcnRmb2xpbzEgZnJvbSBcIi4uLy4uL2NvbXBvbmVudHMvUG9ydGZvbGlvMVwiO1xyXG5pbXBvcnQgU2tpbGxzQ2lyY2xlIGZyb20gXCIuLi8uLi9jb21wb25lbnRzL1NraWxscy1jaXJjbGVcIjtcclxuaW1wb3J0IFRlc3RpbW9uaWFscyBmcm9tIFwiLi4vLi4vY29tcG9uZW50cy9UZXN0aW1vbmlhbHMxXCI7XHJcbmltcG9ydCBUZWFtMSBmcm9tIFwiLi4vLi4vY29tcG9uZW50cy9UZWFtMVwiO1xyXG5pbXBvcnQgQmxvZ3MxIGZyb20gXCIuLi8uLi9jb21wb25lbnRzL0Jsb2dzMVwiO1xyXG5pbXBvcnQgQ29udGFjdCBmcm9tIFwiLi4vLi4vY29tcG9uZW50cy9Db250YWN0XCI7XHJcbmltcG9ydCBCcmFuZHMgZnJvbSBcIi4uLy4uL2NvbXBvbmVudHMvQnJhbmRzXCI7XHJcbmltcG9ydCBBYm91dFVzMiBmcm9tIFwiLi4vLi4vY29tcG9uZW50cy9BYm91dC1VczJcIjtcclxuXHJcbmNvbnN0IEhvbWUxID0gKCkgPT4ge1xyXG4gIFJlYWN0LnVzZUVmZmVjdCgoKSA9PiB7XHJcbiAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKFwiYm9keVwiKS5jbGFzc0xpc3QuYWRkKFwiaG9tZXBhZ2VcIik7XHJcbiAgfSwgW10pO1xyXG4gIHJldHVybiAoXHJcbiAgICA8TGlnaHRMYXlvdXQgZm9vdGVyQ2xhc3M9e1wibXQtMzBcIn0+XHJcbiAgICAgIDxJbnRyb1dpdGhIb3Jpem9udGFsIC8+XHJcbiAgICAgIHsvKiA8QWJvdXRVczEgLz4gKi99XHJcbiAgICAgIDxBYm91dFVzMi8+XHJcbiAgICAgIDxCbG9nczEgLz5cclxuICAgICAgey8qIDxTZXJ2aWNlczEgLz4gKi99XHJcbiAgICAgIHsvKiA8UG9ydGZvbGlvMSAvPiAqL31cclxuICAgICAgPFNraWxsc0NpcmNsZSAvPlxyXG4gICAgICA8QnJhbmRzLz5cclxuICAgICAgPGJyLz48YnIvPlxyXG4gICAgICA8YnIvPjxici8+XHJcbiAgICAgIHsvKiA8VGVzdGltb25pYWxzIC8+ICovfVxyXG4gICAgICB7LyogPFRlYW0xIC8+ICovfVxyXG4gICAgXHJcbiAgICAgIHsvKiA8Q29udGFjdCAvPiAqL31cclxuICAgIDwvTGlnaHRMYXlvdXQ+XHJcbiAgKTtcclxufTtcclxuXHJcbmV4cG9ydCBkZWZhdWx0IEhvbWUxO1xyXG4iXSwibmFtZXMiOlsiUmVhY3QiLCJBYm91dFVzMSIsIlNlcnZpY2VzMSIsIkludHJvV2l0aEhvcml6b250YWwiLCJMaWdodExheW91dCIsIlBvcnRmb2xpbzEiLCJTa2lsbHNDaXJjbGUiLCJUZXN0aW1vbmlhbHMiLCJUZWFtMSIsIkJsb2dzMSIsIkNvbnRhY3QiLCJCcmFuZHMiLCJBYm91dFVzMiIsIkhvbWUxIiwidXNlRWZmZWN0IiwiZG9jdW1lbnQiLCJxdWVyeVNlbGVjdG9yIiwiY2xhc3NMaXN0IiwiYWRkIiwiZm9vdGVyQ2xhc3MiLCJiciJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/pages/home1/index.jsx\n");
+
+/***/ })
+
+});

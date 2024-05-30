@@ -107,12 +107,12 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
               
               <li className="nav-item">
                 <Link href="/">
-                  <a className="nav-link">Home</a>
+                 <span  className="nav-link">Home</span>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link href="/about">
-                  <a className="nav-link">About</a>
+                <span  className="nav-link">About</span>
                 </Link>
               </li>
               {/* <li className="nav-item">
@@ -122,7 +122,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
               </li> */}
               <li className="nav-item">
                 <Link href="/ourworks">
-                  <a className="nav-link">Our Works</a>
+                <span  className="nav-link">Our Works</span>
                 </Link>
               </li>
               {/* <li className="nav-item dropdown" onClick={handleDropdown}>
@@ -173,7 +173,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
               </li> */}
               <li className="nav-item">
                 <Link href="/contact">
-                  <a className="nav-link" aria-label="Contact">Contact</a>
+                <span  className="nav-link">Contact</span>
                 </Link>
               </li>
             </ul>

@@ -6,7 +6,7 @@
       "first": "Pushing Boundaries, Shaping the Future, and Transforming",
       "second": " the Way We Experience Built Environments"
     },
-    "image": "/assets/img/Architectures/homepage/home1.jpg"
+    "image": "/assets/img/Architectures/new/homebanner.jpg"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
       "first": "Unveiling the Seamless Integration of Classic ",
       "second": "and Modern Design Aesthetics"
     },
-    "image": "/assets/img/Architectures/homepage/home2.jpg"
+    "image": "/assets/img/Architectures/new/homebanner2.jpg"
   },
   {
     "id": 3,
@@ -36,6 +36,6 @@
       "first": "Bring Your Dream House from Paper to Reality with",
       "second": " Our Experienced and Creative Team."
     },
-    "image": "/assets/img/Architectures/homepage/home4.jpg"
+    "image":"/assets/img/Architectures/new/homebanner3.jpg"
   }
 ]
