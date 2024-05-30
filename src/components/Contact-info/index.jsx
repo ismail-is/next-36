@@ -17,13 +17,13 @@ const ContactInfo = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 ">
+          <div className="col-lg-4" >
             <div className="item"  >
               <span className="icon pe-7s-mail-open"></span>
               <div className="cont" >
                 <h6 className="custom-font">Email Us</h6>
-                <p><a href="mailto:admin@thearchitecturecorporation.com">admin@thearchitecturecorporation.com</a></p>
-                <p ><a href="mailto:design@thearchitecturecorporation.com">design@thearchitecturecorporation.com</a></p>
+                <p style={{marginLeft:'-8px'}}><a href="mailto:admin@thearchitecturecorporation.com">admin@thearchitecturecorporation.com</a></p>
+                <p style={{marginLeft:'-8px'}}><a href="mailto:design@thearchitecturecorporation.com">design@thearchitecturecorporation.com</a></p>
               </div>
             </div>
           </div>

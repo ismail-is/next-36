@@ -5,8 +5,7 @@ import Footer from "../components/Footer";
 import Head from "next/head";
 
 const MainSkin = ({ children }) => {
-  const navbarRef = React.useRef(null);
-  const logoRef = React.useRef(null);
+  const navbarRef = React.us 
   
   React.useEffect(() => {
     var navbar = navbarRef.current,

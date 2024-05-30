@@ -23,11 +23,7 @@ class MyDocument extends Document {
             content="Archo - Onepage Multi-Purpose React nextjs Template"
           />
           <meta name="author" content="" />
-          <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
-          <meta name="viewport" content="width=device-width, initial-scale=1"/>
-          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.5, user-scalable=no"/>
-
+         
 
 
 
